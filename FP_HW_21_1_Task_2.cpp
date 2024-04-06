@@ -36,9 +36,7 @@ void statisticByFile(const char* inputFilePath, const char* outputFilePath) {
 		char line[1024];
 		inputFile.getline(line, 1024);
 		statistic.numOfLines++;
-		cout << line << endl;
-	
-		
+
 		size_t length = strlen(line);
 		for (size_t i = 0; i < length; i++) {
 			if (std::isalpha(line[i])) {

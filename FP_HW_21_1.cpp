@@ -10,8 +10,13 @@ int main()
 	SetConsoleCP(1251);
 	SetConsoleOutputCP(1251);
 
-	const char* inputFilePath = "input.txt";
-	const char* outputFilePath = "output.txt";
+	const char* inputFilePath1 = "input1.txt";
+	const char* outputFilePath1 = "output1.txt";
 
-	statisticByFile(inputFilePath, outputFilePath);
+	statisticByFile(inputFilePath1, outputFilePath1);
+
+
+	const char* inputFilePath2_1 = "input2_1.txt";
+	const char* inputFilePath2_2 = "input2_2.txt";
+	differenceByFile(inputFilePath2_1, inputFilePath2_2);
 }
