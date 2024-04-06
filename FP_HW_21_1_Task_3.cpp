@@ -28,7 +28,7 @@ char* readFromFile(const char* filePath, int& fileSize) {
     fileSize = file.tellg();
     file.seekg(0, ios::beg);
 
-    char* buffer = new char[fileSize];
+    char* buffer = new char[fileSize + 1] {};
     file.read(buffer, fileSize);
     buffer[fileSize] = '\0'; 
 
