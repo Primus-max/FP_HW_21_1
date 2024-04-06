@@ -130,6 +130,7 @@
     <ClCompile Include="FP_HW_21_1.cpp" />
     <ClCompile Include="FP_HW_21_1_Task_1.cpp" />
     <ClCompile Include="FP_HW_21_1_Task_2.cpp" />
+    <ClCompile Include="FP_HW_21_1_Task_3.cpp" />
     <ClCompile Include="message_utils.cpp" />
   </ItemGroup>
   <ItemGroup>

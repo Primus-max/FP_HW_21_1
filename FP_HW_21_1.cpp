@@ -19,4 +19,11 @@ int main()
 	const char* inputFilePath2_1 = "input2_1.txt";
 	const char* inputFilePath2_2 = "input2_2.txt";
 	differenceByFile(inputFilePath2_1, inputFilePath2_2);
+
+
+	const char* inputFilePathCaesar = "input.txt";
+	const char* outputFilePathCaesar = "encryptCaesar.txt";
+	const int key = 3; 
+
+	encryptFile(inputFilePathCaesar, outputFilePathCaesar, key);
 }
