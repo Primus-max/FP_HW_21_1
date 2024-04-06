@@ -11,8 +11,8 @@ void encryptCaesar(char* text, int key) {
 
     for (int i = 0; i < length; ++i) {
         if (isalpha(text[i])) {
-            char base = isupper(text[i]) ? 'A' : 'a'; // Определяем базу для верхнего или нижнего регистра
-            text[i] = ((text[i] - base + key) % 26) + base; // Применяем шифр Цезаря
+            char base = isupper(text[i]) ? 'A' : 'a'; // Определяю базу для верхнего или нижнего регистра
+            text[i] = ((text[i] - base + key) % 26) + base; // Применяю шифр Цезаря
         }
     }
 }
